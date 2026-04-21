@@ -1,0 +1,48 @@
+/*div {
+    border: 2px solid;
+    border-color: red;
+    width: 1000px;
+    height: 600px;
+ }*/
+ 
+ .img{
+    width: inherit;
+     height: inherit;
+ }
+
+ p {
+    background-color: blue;  
+    width: 30%;  
+    display: inline-block;
+}
+
+a {
+    background-color: red;
+    width: 45%;
+    height: 50px;
+    display: inline-block;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.foto-container {
+    width: 66%;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #000000aa;
+    background-color: #ff002b;
+    margin-bottom: 1rem;
+}
+
+.foto-destaque-verde {
+    background-color: #24cc2d;
+    height: 400px;
+}
